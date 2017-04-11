@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+	<title>Fomulário de Contato</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <form method="post">
+            <label>Nome:</label><br>
+            <input name="tx_nome" type="text" id="tx_nome" size="50" class="formcamp"><br>
+            <label>Email:</label><br>
+            <input name="tx_email" type="text" id="tx_email" size="50" class="formcamp"><br><br>
+            <label>Mensagem:</label><br>
+            <textarea name="tx_mensagem" cols="75" rows="8" id="tx_mensagem" input ></textarea><br>
+            <input type="button" onclick="showInput()" value="Enviar" /><br><br>
+        </form> 
+            <span id='display_nome'></span>
+            <span id='display_email'></span>
+            <span id='display_mensagem'></span>
+    </div>   
+
+</body>
+
+</html>

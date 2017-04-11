@@ -1,0 +1,40 @@
+input[type=submit], input[type=button] {
+	padding: 10px;
+}
+
+.wrapper{
+	font-family: monospace;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	margin: auto;
+	text-align: center;
+	height: 90%;
+	width: 100%;
+}
+
+p{
+	font-size: 14px;
+	padding-left: 25%;
+    padding-right: 25%;
+}
+
+#mapid {
+	position: relative;
+	margin: auto;
+	width: 80%;
+	height: 80%;
+	margin-bottom: 20px;
+}
+
+label, .formcamp {
+	margin-left: 20px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+textarea {
+	margin: 20px;
+}
